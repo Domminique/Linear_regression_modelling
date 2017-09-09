@@ -10,9 +10,11 @@ The dependencies are:
 Install it manually or use the below configuration files:
 
 for pip:
+
 `pip install -r requirements.txt`
 
 for conda:
+
 `pip install -r requirements_conda.yaml`
 
 ## Running the model
@@ -20,5 +22,5 @@ In terminal type `python regression.py` to run the script.
 
 ## Output
 The scattered points shows the dataset whereas the line shows our linear regression model prediction.
-![OutputImage](/finalOutput.png)
+![OutputImage](finalOutput.png)
 

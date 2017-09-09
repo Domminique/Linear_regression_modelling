@@ -21,5 +21,13 @@ plt.scatter(x,y)
 # this will be predicted by our model
 plt.plot(x, lr.predict(x))
 
+# show labels
+plt.xlabel('Brain Size')
+plt.ylabel('Body weight')
+
+# show annotations
+plt.annotate('given data', xy = (2547, 4603), xytext = (3000, 5000), arrowprops = dict(facecolor = 'green', shrink = 0.10),)
+plt.annotate('prediction line', xy = (3000, lr.predict(3000)), xytext = (4000, 3000), arrowprops = dict(facecolor = 'green', shrink = 0.1),)
+
 # show the plot on the user screen
 plt.show()

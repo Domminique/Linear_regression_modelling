@@ -1,4 +1,4 @@
-# Linear_regression_modelling
+# Linear_Regression_Modelling
 We will train a linear regression model on `dataset.txt` for different brain and body sizes.
 
 ## Installation
